@@ -1,0 +1,32 @@
+#title-1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#title-2 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(20, 61, 61);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#title-3 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(154, 228, 36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#title-4 {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(150, 95, 64);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
