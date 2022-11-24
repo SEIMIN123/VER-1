@@ -66,9 +66,9 @@
     width: 100vw;
     height: 100vh;
     backdrop-filter: blur(5px);
-    background: rgba(255, 255, 255, 0.1);
-    -webkit-backdrop-filter: blur(5px);
-            backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
     position: fixed;
     top: 0;
     left: 0;
@@ -93,12 +93,11 @@
   }
   
   .side {
-    color: rgb(255, 255, 255);
     letter-spacing: 0.5vw;
     font-family: 'Times New Roman', Times, serif;
     list-style: none;
     font-weight: bold;
-    font-size: 1.2vw;
+    font-size: 3vw;
   }
 
   .side1 > a{
@@ -113,6 +112,7 @@
     scroll-behavior: smooth;
     color: #fff;
     margin: 1em;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
 
   }
   
@@ -121,6 +121,7 @@
     color: rgba(0, 0, 0, 0.5);
     opacity: 1;
     border-radius: 3px;
+
   }
 
 
@@ -135,6 +136,8 @@
     text-decoration: none;
     scroll-behavior: smooth;
     color: #fff;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+
     margin: 1em;
 
   }
@@ -157,6 +160,8 @@
     text-decoration: none;
     scroll-behavior: smooth;
     color: #fff;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+
     margin: 1em;
 
   }
@@ -179,6 +184,8 @@
     text-decoration: none;
     scroll-behavior: smooth;
     color: #fff;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+
     margin: 1em;
 
   }
