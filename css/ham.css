@@ -63,7 +63,7 @@
   
   /* 사이드바 */
   .sidebar {
-    width: 320px;
+    width: 100vw;
     height: 100vh;
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.1);
@@ -72,7 +72,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    left: -320px;
+    left: -100vw;
     transition: 0.5s;
     flex-direction: column;
     font-size: 1.1vw;
@@ -81,7 +81,8 @@
     justify-content: center;
     align-items: center;
   }
-  
+
+ 
   input[id=trigger]:checked ~ .sidebar {
     left: 0;
   }
@@ -188,5 +189,7 @@
     opacity: 1;
     border-radius: 3px;
   }
+
+
 
 

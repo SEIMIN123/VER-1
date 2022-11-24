@@ -45,42 +45,21 @@ window.onload = function () {
   });
 };
 
-// -------------------------------------------------------
+// const sidebar = document.querySelector('.side');
+// const hidden = document.querySelector('.sidebar');
+// const container = document.querySelector('.container');
+// const trigger = document.getElementById('trigger');
 
-const btn1 = document.querySelector('side1');
-const btn2 = document.querySelector('side2');
-const btn3 = document.querySelector('side3');
-const btn4 = document.querySelector('side4');
-const btn5 = document.querySelector('side5');
-const section = document.querySelectorAll(".section");
+// trigger.addEventListener('click', ()=> {
+
+//   hidden.style.marginRight = "-100vw";
+// });
+
+//   hidden.addEventListener('click', ()=>{
+
+//     hidden.style.marginLeft = "-100vw";
+  
+// });
 
 
-btn1.addEventListener('click', () => {
-    scrollTo({
-        top: 0,
-        behavior: "smooth"
-    });
-});
 
-btn2.addEventListener('click', () => {
-    scrollTo({
-        top: 961,
-        behavior: "smooth"
-    });
-});
-
-btn3.addEventListener('click', () => {
-    scrollTo({
-        top: 1922,
-        behavior: "smooth"
-    });
-});
-
-btn4.addEventListener('click', () => {
-    scrollTo({
-        top: 2886,
-        behavior: "smooth"
-    });
-});
-
-s
