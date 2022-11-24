@@ -1,0 +1,16 @@
+.fa-solid {
+
+    position: fixed;
+    color:rgba(255, 255, 255,0.1);
+    right: 3vw; 
+    bottom: 5vh;
+    z-index: 999;   
+    transition: 1.2s;
+
+}
+
+.fa-solid:hover {
+
+    color: white;
+    opacity: 1;
+}

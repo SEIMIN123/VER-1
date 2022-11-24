@@ -80,7 +80,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
   }
   
   input[id=trigger]:checked ~ .sidebar {
@@ -97,6 +96,8 @@
     letter-spacing: 0.5vw;
     font-family: 'Times New Roman', Times, serif;
     list-style: none;
+    font-weight: bold;
+    font-size: 1.3vw;
   }
 
   .side1 > a{
