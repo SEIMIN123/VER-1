@@ -1,28 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/title.css">
-</head>
-<body>
-    <div id="root">
-        <div class="section">
-            <div id="title-1"></div>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/title-1.css">
+        <link rel="stylesheet" href="css/title-2.css">
+        <link rel="stylesheet" href="css/title-3.css">
+        <link rel="stylesheet" href="css/title-4.css">
+        <link rel="stylesheet" href="css/title-5.css">
+        <link rel="stylesheet" href="css/ham.css">
+    </head>
+    <body>
+        <div id="root">
+            <div class="container">
+                <input type="checkbox" id="trigger">
+                <label for="trigger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                <div class="sidebar">
+                    <div class="side">
+                        <li class="side1"><a href="#title-1">HOME</a></li>
+                        <li class="side2"><a href="#title-2">PROFILE</a></li>
+                        <li class="side3"><a href="#title-3">PROJECT-1</a></li>
+                        <li class="side4"><a href="#title-4">PROJECT-2</a></li>
+                    </div>
+                </div>
+            </div>
+
+            <!----------------------------------------------------->
+
+            <div class="section">
+                <div id="title-1">
+                    <video id="video" preload="auto" autoplay loop muted>
+                        <source src="./img/sky.mp4">
+                    </video>
+                    <p>PORTFOLIO<br><br>
+                        <span>
+                        UI & UX DESIGNER
+                        </span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="section">
+                <div id="title-2"></div>
+            </div>
+
+            <div class="section">
+                <div id="title-3"></div>
+            </div>
+
+            <div class="section">
+                <div id="title-4"></div>
+            </div>
+
+            <div class="section">
+                <div id="title-5"></div>
+            </div>
         </div>
-        <div class="section">
-            <div id="title-2"></div>
-        </div>
-        <div class="section">
-            <div id="title-3"></div>
-        </div>
-        <div class="section">
-            <div id="title-4"></div>
-        </div>
-    </div>
-<script src="./js/wheel.js"></script>
-</body>
+        <script src="./js/wheel.js"></script>
+    </body>
 </html>

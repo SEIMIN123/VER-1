@@ -2,6 +2,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior:smooth;
+  text-decoration:none;
+
 }
 
 /* body::-webkit-scrollbar {
@@ -11,9 +14,20 @@ body {
 
 #root {
   width: 100vw;
-  height: 400vh;
+  height: 500vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+#video {
+
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(110%);
+  
 }
