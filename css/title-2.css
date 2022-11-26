@@ -1,9 +1,171 @@
 #title-2 {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(161, 161, 161);
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
+
+}
+
+.box1 {
+
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.box1-1 {
+
+    width: 28.9vw;
+    height: 41.1vh;
+    background: url("/img/me.jpg");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 3px solid white;
+    border-radius: 5px;
+    margin-bottom: -3vw;
   }
+
+.box1-2 {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}  
+
+.box1-2 > h1 {
+    letter-spacing: 1vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+}
+
+.box1-2 > li {
+    margin-top: 3vh;
+    font-size: 1.2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    list-style: none;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+
+    text-align: center;
+}
+
+/* --------------------------------------------------------------- */
+
+.box2 {
+
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 3px solid rgb(0, 0, 0); */
+
+}
+
+.box2-1 {
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 3px solid rgb(0, 0, 0); */
+  margin-top: -15vh;
+}
+
+.box2-1 > h1 {
+  color: #fff;
+  font-size: 2em;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box2-1 > li {
+  font-size: 1.5em;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  list-style: none;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.icon {
+  width: 50vw;
+  height: 20vh;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  /* border: 3px solid rgb(0, 0, 0); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon > h2 {
+  font-size: 2vw;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 0.8em;
+}
+
+
+/* ------------------------------------------------------ */
+
+.icon-1 {
+  width: 50vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-1 > ul {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+
+
+}
+
+/* ------------------------------------------------------ */
+
+
+.icon-2 {
+
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5vw;
+
+}
+
+.icon-2 > ul {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 47px;
+  color: #fff;
+
+}

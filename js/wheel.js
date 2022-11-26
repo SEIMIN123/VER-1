@@ -45,21 +45,7 @@ window.onload = function () {
   });
 };
 
-// const sidebar = document.querySelector('.side');
-// const hidden = document.querySelector('.sidebar');
-// const container = document.querySelector('.container');
-// const trigger = document.getElementById('trigger');
 
-// trigger.addEventListener('click', ()=> {
-
-//   hidden.style.marginRight = "-100vw";
-// });
-
-//   hidden.addEventListener('click', ()=>{
-
-//     hidden.style.marginLeft = "-100vw";
-  
-// });
 
 
 

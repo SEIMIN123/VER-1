@@ -6,6 +6,7 @@
     bottom: 5vh;
     z-index: 999;   
     transition: 1.2s;
+    cursor: pointer;
 
 }
 
