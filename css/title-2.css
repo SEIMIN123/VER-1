@@ -139,6 +139,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-left: -40px;
 }
 
 .icon-1 > ul {
@@ -168,6 +169,8 @@
   justify-content: center;
   align-items: center;
   font-size: 5vw;
+  margin-left: -40px;
+
 }
 
 .icon-2 > ul {
