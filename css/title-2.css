@@ -1,35 +1,39 @@
 #title-2 {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .box1 {
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: 1s;
+}
 
-    width: 40vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
+.box1.active {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .box1-1 {
-
-    width: 28.9vw;
-    height: 41.1vh;
-    background: url("/img/me.jpg");
-    background-size: contain;
-    background-position: center center;
-    background-repeat: no-repeat;
-    border: 3px solid white;
-    border-radius: 5px;
-    margin-bottom: -3vw;
-  }
+  width: 28.6vw;
+  height: 38vh;
+  background: url("/img/me.jpg");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 3px solid white;
+  border-radius: 5px;
+  margin-bottom: -3vw;
+}
 
 .box1-2 {
   width: 50vw;
@@ -38,39 +42,43 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-
-}  
+}
 
 .box1-2 > h1 {
-    letter-spacing: 1vw;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #fff;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  letter-spacing: 1vw;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 }
 
 .box1-2 > li {
-    margin-top: 3vh;
-    font-size: 1.2em;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    list-style: none;
-    color: #fff;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  margin-top: 3vh;
+  font-size: 1.2em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  list-style: none;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
 
-    text-align: center;
+  text-align: center;
 }
 
 /* --------------------------------------------------------------- */
 
 .box2 {
+  width: 40vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateX(50%);
+  opacity: 0;
+  transition: 1s;
+}
 
-    width: 40vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    /* border: 3px solid rgb(0, 0, 0); */
-
+.box2.active {
+  transform: translateX(0);
+  opacity: 1;
 }
 
 .box2-1 {
@@ -81,22 +89,22 @@
   align-items: center;
   flex-direction: column;
   /* border: 3px solid rgb(0, 0, 0); */
-  margin-top: -15vh;
+  margin-top: -10vh;
 }
 
 .box2-1 > h1 {
   color: #fff;
-  font-size: 2em;
+  font-size: 2.5em;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .box2-1 > li {
   font-size: 1.5em;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   list-style: none;
   color: #fff;
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
@@ -106,12 +114,11 @@
   align-items: center;
 }
 
-
 .icon {
   width: 50vw;
   height: 20vh;
   color: #fff;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
   /* border: 3px solid rgb(0, 0, 0); */
   display: flex;
   justify-content: center;
@@ -120,10 +127,9 @@
 
 .icon > h2 {
   font-size: 2vw;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  letter-spacing: 0.8em;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 0.5em;
 }
-
 
 /* ------------------------------------------------------ */
 
@@ -136,36 +142,48 @@
 }
 
 .icon-1 > ul {
-  
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 45px;
   color: rgb(255, 255, 255);
   text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  transition: 0.5s ease-in-out;
+}
 
-
+.icon-1 > ul:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  transform: translateY(-20px);
+  filter: brightness(5);
 }
 
 /* ------------------------------------------------------ */
 
-
 .icon-2 {
-
   height: 10vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 5vw;
-
 }
 
 .icon-2 > ul {
-
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 47px;
   color: #fff;
-
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  transition: 0.5s ease-in-out;
 }
+
+.icon-2 > ul:hover {
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  transform: translateY(-20px);
+}
+
+/* ------------------------------------------------------ */
