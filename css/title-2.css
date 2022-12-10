@@ -42,13 +42,23 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-size: 1.5em;
 }
 
 .box1-2 > h1 {
   letter-spacing: 1vw;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: #fff;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  transition: 1s;
+
+}
+
+.box1-2 > h1:hover {
+  color: #fff;
+  text-shadow: 0 0 10px #fff;
+  opacity: 1;
+  font-size: 2.1em;
+
 }
 
 .box1-2 > li {
@@ -57,9 +67,15 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   list-style: none;
   color: #fff;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  transition: 1s;
+}
 
-  text-align: center;
+.box1-2 > li:hover {
+
+  color: #fff;
+  text-shadow: 0 0 10px #fff;
+  opacity: 1;
+  font-size: 1.6em;
 }
 
 /* --------------------------------------------------------------- */
@@ -95,9 +111,9 @@
 }
 
 .box2-1 > h1 {
-  color: #fff;
   font-size: 2.5em;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  color: #fff;
+  text-shadow: 0 0 10px #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -105,11 +121,11 @@
 }
 
 .box2-1 > li {
-  font-size: 1.5em;
+  font-size: 2em;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   list-style: none;
+  text-shadow: 0 0 10px #fff;
   color: #fff;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
   text-align: center;
   display: flex;
   justify-content: center;
@@ -119,8 +135,8 @@
 .icon {
   width: 50vw;
   height: 20vh;
+  text-shadow: 0 0 10px #fff;
   color: #fff;
-  text-shadow: 0 0 50px rgba(255, 255, 255, 0.5);
   /* border: 3px solid rgb(0, 0, 0); */
   display: flex;
   justify-content: center;
@@ -153,13 +169,12 @@
   justify-content: center;
   font-size: 45px;
   color: rgb(255, 255, 255);
-  text-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
   transition: 0.5s ease-in-out;
 }
 
 .icon-1 > ul:hover {
-  color: rgb(102, 102, 102);
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
+  text-shadow: 0 0 10px #fff;
   transition: 0.5s ease-in-out;
   cursor: pointer;
   transform: translateY(-20px);
