@@ -7,10 +7,10 @@ body {
 
 }
 
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 0;
   display: none;
-} */
+}
 
 #root {
   width: 100vw;
@@ -28,6 +28,5 @@ body {
   object-fit: cover;
   position: absolute;
   z-index: -1;
-  filter: brightness(110%);
   
 }

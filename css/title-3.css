@@ -1,8 +1,18 @@
 #title-3 {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(154, 228, 36);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
+  }
+
+  .box3{
+
+    width: 50%;
+    height: 100vh;
+    background: url(/img/pngfind.com-crt-monitor-png-5018974.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
   }

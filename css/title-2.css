@@ -1,14 +1,15 @@
 #title-2 {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: black;
 }
 
 .box1 {
   width: 40vw;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -30,7 +31,6 @@
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  border: 3px solid white;
   border-radius: 5px;
   margin-bottom: -3vw;
 }
@@ -53,7 +53,7 @@
 
 .box1-2 > li {
   margin-top: 3vh;
-  font-size: 1.2em;
+  font-size: 1.5em;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   list-style: none;
   color: #fff;
@@ -66,7 +66,7 @@
 
 .box2 {
   width: 40vw;
-  height: 100vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,6 +74,8 @@
   transform: translateX(50%);
   opacity: 0;
   transition: 1s;
+  border-radius: 10px;
+  
 }
 
 .box2.active {
@@ -89,7 +91,7 @@
   align-items: center;
   flex-direction: column;
   /* border: 3px solid rgb(0, 0, 0); */
-  margin-top: -10vh;
+  margin-top: -16vh;
 }
 
 .box2-1 > h1 {
@@ -123,6 +125,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -8vh;
 }
 
 .icon > h2 {
@@ -143,22 +146,23 @@
 }
 
 .icon-1 > ul {
+  width: 50px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 45px;
   color: rgb(255, 255, 255);
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+  text-shadow: 0 0 100px rgba(255, 255, 255, 0.5);
   transition: 0.5s ease-in-out;
 }
 
 .icon-1 > ul:hover {
-  color: rgb(255, 255, 255);
+  color: rgb(102, 102, 102);
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   transition: 0.5s ease-in-out;
   cursor: pointer;
   transform: translateY(-20px);
-  filter: brightness(5);
 }
 
 /* ------------------------------------------------------ */
@@ -174,6 +178,8 @@
 }
 
 .icon-2 > ul {
+  width: 50px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -187,6 +193,8 @@
   transition: 0.5s ease-in-out;
   cursor: pointer;
   transform: translateY(-20px);
+  color: rgb(179, 179, 179);
+
 }
 
 /* ------------------------------------------------------ */

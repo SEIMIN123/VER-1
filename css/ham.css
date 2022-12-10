@@ -74,6 +74,7 @@ input[id="trigger"]:checked + label span:nth-child(3) {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 input[id="trigger"]:checked ~ .sidebar {

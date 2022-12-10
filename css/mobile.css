@@ -1,11 +1,17 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
+
+    #root {
+
+        width: 100vw;
+        height: 700vh;
+
+    }
 
     .container {
         margin-left: -85vw;
         margin-top: -490vh;
         position: fixed;
         z-index: 3000;
-
     }
 
     .container ul li {
@@ -42,7 +48,7 @@
         list-style: none;
         font-weight: bold;
         font-size: 6vw;
-      }
+    }
     .fa-solid {
 
         position: fixed;
@@ -59,4 +65,16 @@
         color: white;
         opacity: 1;
     }
+
+
+    /* --------------------------------------- */
+
+
+    #title-1 {
+
+        width: 10vw;
+        height: 100vh;
+
+    }
+
 }
