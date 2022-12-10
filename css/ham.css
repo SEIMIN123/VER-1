@@ -89,7 +89,7 @@ input[id="trigger"]:checked + label[for="trigger"] {
 .hidden {
   list-style: none;
   letter-spacing: 0.5vw;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Lora', serif;
   font-weight: bold;
   font-size: 1.5vw;
 }

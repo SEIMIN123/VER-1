@@ -9,10 +9,27 @@
 
   .box3{
 
-    width: 50%;
+    width: 80%;
     height: 100vh;
-    background: url(/img/pngfind.com-crt-monitor-png-5018974.png);
+    background: url(/img/pngwing.com.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
+    position: absolute;
+    
+  }
+
+  .box3-1 {
+
+    width: 56.1vw;
+    height: 64vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -12.2vw;
+    bottom: -4.2vh;
+    position: relative;
+    background-color: antiquewhite;
   }

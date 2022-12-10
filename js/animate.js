@@ -1,12 +1,9 @@
-// const scroll = document.querySelector(".box1");
+const scroll = document.querySelector(".box1");
 
-// window.addEventListener("wheel", (e) => {
-//   console.log(e.deltaY, e.deltaX);
+window.addEventListener("wheel", (e) => {
+  console.log(e.deltaY, e.deltaX);
 
-//   if (e.deltaY > 100) {
-//     Element.classList.add("active");
-//   }
-// });
+});
 
 const options = {
   root: null, 

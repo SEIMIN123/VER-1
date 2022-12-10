@@ -1,8 +1,36 @@
 #title-4 {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(150, 95, 64);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
+
+  }
+
+  .box4{
+
+    width: 70vw;
+    height: 100vh;
+    background: url(/img/advan.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    
+  }
+
+  .box4-1 {
+
+    width: 31vw;
+    height: 44vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: -19vw;
+    bottom: -25vh;
+    position: relative;
+    background-color: antiquewhite;
   }

@@ -47,35 +47,21 @@
 
 .box1-2 > h1 {
   letter-spacing: 1vw;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   color: #fff;
-  transition: 1s;
-
-}
-
-.box1-2 > h1:hover {
-  color: #fff;
-  text-shadow: 0 0 10px #fff;
-  opacity: 1;
-  font-size: 2.1em;
+  text-shadow: 0 0 5px #fff;
 
 }
 
 .box1-2 > li {
   margin-top: 3vh;
   font-size: 1.5em;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: 'Roboto', sans-serif;
   list-style: none;
   color: #fff;
   transition: 1s;
-}
-
-.box1-2 > li:hover {
-
-  color: #fff;
-  text-shadow: 0 0 10px #fff;
-  opacity: 1;
-  font-size: 1.6em;
+  text-shadow: 0 0 5px #fff;
+  font-weight: bold;
 }
 
 /* --------------------------------------------------------------- */
@@ -121,7 +107,7 @@
 }
 
 .box2-1 > li {
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   list-style: none;
   text-shadow: 0 0 10px #fff;
@@ -134,14 +120,14 @@
 
 .icon {
   width: 50vw;
-  height: 20vh;
+  height: 10vh;
   text-shadow: 0 0 10px #fff;
   color: #fff;
   /* border: 3px solid rgb(0, 0, 0); */
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: -8vh;
+  margin: 1vh;
 }
 
 .icon > h2 {
