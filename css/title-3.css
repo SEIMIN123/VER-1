@@ -4,32 +4,116 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(26, 26, 26);
   }
 
   .box3{
 
-    width: 80%;
+    width: 50%;
     height: 100vh;
-    background: url(/img/pngwing.com.png);
+    background: url(/img//pngwing.com.png);
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
     position: absolute;
-    
+    right: 45vw;
+    transform: translateX(-30%);
+    opacity: 0;
+    transition: 1s;
+  }
+
+  .box3.active {
+    transform: translateX(0%);
+    opacity: 1;
   }
 
   .box3-1 {
 
-    width: 56.1vw;
-    height: 64vh;
+    width: 30vw;
+    height: 80vh;
     border: 1px solid black;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    right: -12.2vw;
-    bottom: -4.2vh;
-    position: relative;
     background-color: antiquewhite;
+    left: 56vw;
+    top: 10vh;
+    position: absolute;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: 1s;
   }
+
+  .box3-1.active {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+
+  /* -------------------------------------------- */
+
+  .box3-2 {
+
+    width: 40.2vw;
+    height: 46vh;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 17vh;
+    left: 5vw;
+  }
+
+  .imgbox {
+    width: 40.2vw;
+    height: 46vh;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img {
+    width: 40.2vw;
+    height: 46vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0vh;
+    left: 0vw;
+    position: relative;
+  }
+  
+  .mySlides {
+    width: 40.2vw;
+    height: 46vh;
+  }
+  
+  .slideshow-container {
+    width: 40.2vw;
+    height: 46vh;
+    position: absolute;
+  }
+  
+  .fade {
+    -webkit-animation-name: fade;
+            animation-name: fade;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+  }
+
+  @keyframes fade {
+    from {
+      /* transform: translate(10px, 15px); */
+      opacity: 0.1;
+      transition: 0.1s;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  

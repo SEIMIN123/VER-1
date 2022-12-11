@@ -24,6 +24,10 @@ const observer = new IntersectionObserver((entries) => {
 
 const titleList = document.querySelectorAll(".box1");
 const titleList1 = document.querySelectorAll(".box2");
+const titleList2 = document.querySelectorAll(".box3-1");
+const titleList3 = document.querySelectorAll(".box3");
 
 titleList.forEach((el) => observer.observe(el));
 titleList1.forEach((el) => observer.observe(el));
+titleList2.forEach((el) => observer.observe(el));
+titleList3.forEach((el) => observer.observe(el));
