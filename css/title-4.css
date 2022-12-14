@@ -1,36 +1,49 @@
 #title-4 {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
 
-  }
+.box4 {
+  width: 50%;
+  height: 100vh;
+  background: url(/img/advan.png);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 45vw;
+  transform: translateX(-30%);
+  opacity: 0;
+  transition: 1s;
+}
 
-  .box4{
+.box4.active {
+  transform: translateX(0%);
+  opacity: 1;
+}
 
-    width: 70vw;
-    height: 100vh;
-    background: url(/img/advan.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    position: absolute;
-    
-  }
+.box4-1 {
+  width: 30vw;
+  height: 80vh;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  left: 56vw;
+  top: 10vh;
+  position: absolute;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: 1s;
+}
 
-  .box4-1 {
-
-    width: 31vw;
-    height: 44vh;
-    border: 1px solid black;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    right: -19vw;
-    bottom: -25vh;
-    position: relative;
-    background-color: antiquewhite;
-  }
+.box4-1.active {
+  transform: translateX(0%);
+  opacity: 1;
+}
