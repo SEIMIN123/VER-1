@@ -275,7 +275,6 @@
     .box1-1 {
         width: 100vw;
         height: 30vh;
-        background: url("/img/me.jpg");
         background-size: contain;
         background-position: center center;
         background-repeat: no-repeat;
