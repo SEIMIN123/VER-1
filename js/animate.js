@@ -38,3 +38,4 @@ titleList4.forEach((el) => observer.observe(el));
 titleList5.forEach((el) => observer.observe(el));
 titleList6.forEach((el) => observer.observe(el));
 titleList7.forEach((el) => observer.observe(el));
+
