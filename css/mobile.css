@@ -5,6 +5,11 @@
         background-color: black;
     }
 
+    body::-webkit-scrollbar {
+        width: 0;
+        display: none;
+      }
+
     #root {
         width: 100%;
         height: auto;
