@@ -23,8 +23,8 @@ const observer = new IntersectionObserver((entries) => {
 
 const titleList = document.querySelectorAll(".box1");
 const titleList1 = document.querySelectorAll(".box2");
-const titleList2 = document.querySelectorAll(".box3-1");
 const titleList3 = document.querySelectorAll(".box3");
+const titleList2 = document.querySelectorAll(".box3-1");
 const titleList4 = document.querySelectorAll(".box4");
 const titleList5 = document.querySelectorAll(".box4-1");
 const titleList6 = document.querySelectorAll(".box5");

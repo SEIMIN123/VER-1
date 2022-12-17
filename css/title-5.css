@@ -1,7 +1,6 @@
 #title-5 {
   width: 100vw;
   height: 100vh;
-  background-color: rgb(20, 61, 61);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,14 +8,16 @@
 }
 
 .box5 {
-  width: 50%;
+  width: 50vw;
   height: 100vh;
   background: url(../img/pngfind.com-crt-monitor-png-5018974.png);
-  background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  position: absolute;
-  right: 45vw;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   transform: translateX(-30%);
   opacity: 0;
   transition: 1s;
@@ -27,19 +28,60 @@
   opacity: 1;
 }
 
+.imgbox2 {
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img2 {
+  width: 28.5vw;
+  height: 41.5vh;
+  position: absolute;
+  right: 5.9vw;
+  bottom: 1vh;
+}
+
+.mySlides2 {
+  width: 40.2vw;
+  height: 46vh;
+}
+
+.slideshow-container2 {
+  width: 40.2vw;
+  height: 46vh;
+  position: absolute;
+}
+
+.fade2 {
+  -webkit-animation-name: fade;
+  animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {
+    /* transform: translate(10px, 15px); */
+    opacity: 0.1;
+    transition: 0.1s;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* --------------------------------------------- */
+
 .box5-1 {
-  width: 30vw;
-  height: 80vh;
-  border: 1px solid black;
-  border-radius: 5px;
+  width: 40vw;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: antiquewhite;
-  left: 56vw;
-  top: 10vh;
-  position: absolute;
-  transform: translateX(100%);
+  flex-direction: column;
+  transform: translateX(30%);
   opacity: 0;
   transition: 1s;
 }
@@ -48,3 +90,11 @@
   transform: translateX(0%);
   opacity: 1;
 }
+
+.box5-1-1 {
+
+  width: 30vw;
+  height: 80vh;
+  background-color: antiquewhite;
+}
+

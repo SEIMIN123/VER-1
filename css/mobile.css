@@ -444,4 +444,308 @@
 
     /* ------------------------------------------------------ */
 
+    #title-3 {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .box3 {
+        width: 100vw;
+        height: 60vh;
+        background: url("../img/pngwing.com.png");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transform: translateX(-30%);
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .box3.active {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    .imgbox {
+        z-index: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img {
+        width: 82vw;
+        height: 22vh;
+        position: absolute;
+        top: 7.8vh;
+        right: -21vw;
+    }
+
+    .mySlides {
+        width: 40.2vw;
+        height: 46vh;
+    }
+
+    .slideshow-container {
+        width: 40.2vw;
+        height: 46vh;
+        position: absolute;
+    }
+
+    .fade {
+        -webkit-animation-name: fade;
+        animation-name: fade;
+        -webkit-animation-duration: 3s;
+        animation-duration: 3s;
+    }
+
+    @keyframes fade {
+        from {
+            /* transform: translate(10px, 15px); */
+            opacity: 0.1;
+            transition: 0.1s;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* --------------------------------------------- */
+
+    .box3-1 {
+        width: 50vw;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transform: translateX(100%);
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .box3-1.active {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    .box3-1-1 {
+
+        width: 100vw;
+        height: 50vh;
+        background-color: antiquewhite;
+    }
+
+    /* ----------------------------------------------- */
+
+    #title-4 {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .box4 {
+        width: 100vw;
+        height: 60vh;
+        background: url(../img/gameboy_advance_png_by_framerater_dd3c8ms.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transform: translateX(-30%);
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .box4.active {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    .imgbox1 {
+        z-index: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img1{
+        width: 44vw;
+        height: 14vh;
+        position: absolute;
+        top: 14.8vh;
+        right: -2vw;
+    }
+
+    .mySlides1 {
+        width: 40.2vw;
+        height: 46vh;
+    }
+
+    .slideshow-container1 {
+        width: 40.2vw;
+        height: 46vh;
+        position: absolute;
+    }
+
+    .fade1 {
+        -webkit-animation-name: fade;
+        animation-name: fade;
+        -webkit-animation-duration: 3s;
+        animation-duration: 3s;
+    }
+
+    @keyframes fade {
+        from {
+            /* transform: translate(10px, 15px); */
+            opacity: 0.1;
+            transition: 0.1s;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* --------------------------------------------- */
+
+    .box4-1 {
+        width: 50vw;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transform: translateX(100%);
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .box4-1.active {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    .box4-1-1 {
+
+        width: 100vw;
+        height: 50vh;
+        background-color: antiquewhite;
+    }
+
+    /* ----------------------------------------------- */
+
+
+    #title-5 {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .box5{
+        width: 100vw;
+        height: 60vh;
+        background: url(../img/pngfind.com-crt-monitor-png-5018974.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transform: translateX(-30%);
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .box5.active {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    .imgbox2 {
+        z-index: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img2{
+        width: 55.3vw;
+        height: 19vh;
+        position: absolute;
+        top: 14vh;
+        right: -7.5vw;
+    }
+
+    .mySlides2 {
+        width: 40.2vw;
+        height: 46vh;
+    }
+
+    .slideshow-container2 {
+        width: 40.2vw;
+        height: 46vh;
+        position: absolute;
+    }
+
+    .fade2 {
+        -webkit-animation-name: fade;
+        animation-name: fade;
+        -webkit-animation-duration: 3s;
+        animation-duration: 3s;
+    }
+
+    @keyframes fade {
+        from {
+            /* transform: translate(10px, 15px); */
+            opacity: 0.1;
+            transition: 0.1s;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+
+    /* --------------------------------------------- */
+
+    .box5-1 {
+        width: 50vw;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        transform: translateX(100%);
+        opacity: 0;
+        transition: 1s;
+    }
+
+    .box5-1.active {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+
+    .box5-1-1 {
+
+        width: 100vw;
+        height: 50vh;
+        background-color: antiquewhite;
+    }
 }
