@@ -18,7 +18,7 @@ body::-webkit-scrollbar {
 
 #root {
   width: 100vw;
-  height: 500vh;
+  height: 600vh;
   display: flex;
   justify-content: center;
   align-items: center;

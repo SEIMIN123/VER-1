@@ -33,7 +33,7 @@
 
     .container {
         margin-left: -85vw;
-        margin-top: -490vh;
+        margin-top: -590vh;
         position: fixed;
         z-index: 3000;
     }
@@ -748,4 +748,16 @@
         height: 50vh;
         background-color: antiquewhite;
     }
+
+    /* --------------------------------------------- */
+
+    #title-6 {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+    
 }
