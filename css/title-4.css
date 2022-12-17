@@ -10,7 +10,7 @@
 .box4 {
   width: 50%;
   height: 100vh;
-  background: url(/img/advan.png);
+  background: url(/img/gameboy_advance_png_by_framerater_dd3c8ms.png);
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
@@ -46,4 +46,69 @@
 .box4-1.active {
   transform: translateX(0%);
   opacity: 1;
+}
+
+
+/* --------------------------------------------- */
+
+.box4-2 {
+  width: 40.2vw;
+  height: 46vh;
+  /* border: 1px solid black; */
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 17vh;
+  left: 5vw;
+}
+
+.imgbox1 {
+  width: 40.2vw;
+  height: 46vh;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 {
+  width: 22vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 15vh;
+  left: 9vw;
+  position: relative;
+}
+
+.mySlides1 {
+  width: 40.2vw;
+  height: 46vh;
+}
+
+.slideshow-container1 {
+  width: 40.2vw;
+  height: 46vh;
+  position: absolute;
+}
+
+.fade1 {
+  -webkit-animation-name: fade;
+  animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {
+    /* transform: translate(10px, 15px); */
+    opacity: 0.1;
+    transition: 0.1s;
+  }
+  to {
+    opacity: 1;
+  }
 }
