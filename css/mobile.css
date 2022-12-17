@@ -1,8 +1,8 @@
 @media (max-width: 575px) {
 
     #root {
-        width: 100vw;
-        height: 500vh;
+        width: 100%;
+        height: auto;
         display: flex;
         justify-content: center;
         align-items: center;
