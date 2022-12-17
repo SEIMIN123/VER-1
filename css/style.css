@@ -5,6 +5,7 @@ body {
   scroll-behavior: smooth;
   text-decoration: none;
   overflow: hidden;
+  height: 100%;
 }
 
 body::-webkit-scrollbar {
